@@ -27,8 +27,8 @@ function getCategoryIcon(category) {
   if (c === "bug") return "🐞";
   if (c === "tags") return "🏷️";
   if (c === "moderation") return "😶‍🌫️";
-  if (c === "owner") return "✨";
-  if (c === "creator") return "👑";
+  if (c === "owner") return "👄";
+  if (c === "creator") return "🫦";
 
   return "🎯"; 
 }
@@ -85,7 +85,7 @@ export default async function info(client, message) {
 
     
 let menu = `
-DigiX Crew 🎯
+👄 𝖸𝕠𝔯𝔥𝐚 2B-VFX👄
 ────────────
 • Prefix   : ${prefix}
 • User     : ${stylizedChar(userName)}
